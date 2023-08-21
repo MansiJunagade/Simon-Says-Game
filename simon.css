@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    /* background-image: url("assets/spider.jpg"); */
+    /* background-size: auto; */
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: rgb(174, 47, 79);
+
+}
+.yellow{
+    background-color: rgb(211, 142, 15);
+}
+.green{
+    background-color: rgb(61, 148, 109);
+}
+.purple{
+    background-color: rgb(59, 145, 220);
+}
+.flash{
+    background-color: rgb(255, 255, 255);
+}
+.userflash{
+    background-color: green;
+}
