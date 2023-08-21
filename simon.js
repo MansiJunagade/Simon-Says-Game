@@ -41,7 +41,6 @@ function levelUp() {
 }
 
 function checkAns(idx) {
-
     // let idx = level -1;
     if (userSeq[idx] === gameSeq[idx]) {
         if (userSeq.length == gameSeq.length) {
@@ -61,8 +60,7 @@ function checkAns(idx) {
 function btnPress() {
     let btn = this;
     userFlash(btn);
-
-    userColor = btn.getAttribute("id");
+     userColor = btn.getAttribute("id");
     userSeq.push(userColor);
     checkAns(userSeq.length - 1);
 }
